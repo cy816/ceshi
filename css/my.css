@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+header {
+    width: 100%;
+    height: 21rem;
+    background: url(../img/my/bg1.png) no-repeat;
+    background-size: 100%;
+    outline: 1px solid red;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logo>a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: white;
+    padding-top: 3rem;
+    padding-right: 2rem;
+}
+
+.logo>a:nth-of-type(1) {
+    background: url(../img/my/urse.png) no-repeat .8rem 1rem;
+    background-size: 30%;
+}
+
+.logo>a:nth-of-type(2) {
+    background: url(../img/my/down.png) no-repeat 1rem 1rem;
+    background-size: 30%;
+}
+
+.portrait {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.portrait>img {
+    width: 18%;
+}
+
+.but {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.but>a {
+    text-decoration: none;
+    border: .1rem solid white;
+    color: #fff;
+    padding: .6rem 2rem;
+}
+
+.content {
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.content>ul {
+    width: 100%;
+    height: 20.5rem;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}
+
+.content>ul>li {
+    display: flex;
+    margin: 0 2rem;
+    font-size: 1.6rem;
+    border-bottom: .1rem solid #dcdcdc;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/my/right.png) no-repeat 32rem 1rem;
+    background-size: 2%;
+
+
+}
+
+.content>ul>li>img {
+    width: 2.3rem;
+    height: 2rem;
+}
+
+.content>ul>li>a {
+    width: 100%;
+    height: 5rem;
+    text-decoration: none;
+    color: #666666;
+    line-height: 5rem;
+}
