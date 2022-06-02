@@ -234,13 +234,24 @@ footer>h2 {
 
 #list {
     background-color: white;
-    position: fixed;
     top: 0;
+    position: fixed;
     display: none;
+}
+
+#list>li>.ove {
+    display: flex;
+}
+
+#list>li>.ove>h2 {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 900;
 }
 
 a {
     text-decoration: none;
+    color: #666666;
 }
 
 ul {

@@ -63,11 +63,11 @@ header {
     font-size: 1.6rem;
 }
 
-.list>li:nth-of-type(1) {
+.list>.li_1 {
     border-bottom: .5rem solid #FF8A00;
 }
 
-.list>li:nth-of-type(2) {
+.list>.li_2 {
     border-bottom: .5rem solid #ccc;
 }
 
@@ -78,6 +78,7 @@ header {
     outline: none;
     border-bottom: .1rem solid #ccc;
     padding-left: 1rem;
+    position: relative;
 }
 
 .register {
@@ -118,4 +119,30 @@ header {
 
 .login>a:nth-of-type(2) {
     color: #666666;
+}
+
+.sp {
+    display: none;
+}
+
+/* .sb {
+    display: none;
+} */
+
+.sb>.list>.li_1 {
+    border-bottom: .5rem solid #ccc;
+}
+
+.sb>.list>.li_2 {
+
+    border-bottom: .5rem solid #FF8A00;
+}
+
+.span_ {
+    position: absolute;
+    top: 14rem;
+    right: 3rem;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    padding: .8rem 1rem;
 }
